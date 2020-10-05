@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "mediciplus",
+    "slug": "mediciplus",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "2.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/mediciplus_icon.png",
+    "scheme": "myapp",
+    "splash": {
+      "image": "./assets/images/mediciplus_splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#003566"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.logem.mediciplus",
+      "buildNumber": "2.1.0"
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "description": "Mediciplus",
+    "android": {
+      "package": "com.beanztech.mediciplus",
+      "versionCode": 1
+    }
+  }
+}
